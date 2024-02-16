@@ -27,3 +27,16 @@ player_name = "Nimish"
 print(player_name)
 player_name = "Mammoth"
 print(player_name)  
+
+#Nimish
+#Mammoth
+
+print(type(is_game_over))
+print(type(num_lives))
+print(type(percent_health))
+print(type(player_name))
+
+#boolean
+#integer
+#float
+#string
