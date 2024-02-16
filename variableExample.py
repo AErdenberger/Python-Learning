@@ -25,3 +25,14 @@ print(num_lives)
 percent_health = 0.5
 print(percent_health)
 #expected 0.5
+
+#String
+#Strings are in-between either '' or ""
+
+player_name = "Nimish"
+#just like in other languages, strings are case-sensitive
+print(player_name)
+#expected Nimish
+player_name = 'Mammoth'
+print(player_name)
+#expected Nimish
