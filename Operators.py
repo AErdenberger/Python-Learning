@@ -48,6 +48,52 @@ print(name)
 # subtracting strings doesn't really makes sense
 # not a lot of the other arithmatic operators works with strings
 
-# Conditional Operators
+# Comparison Operators
+# > >= < <= == !=
+# return true or false based on the comparison
+# values that are compared will remain unchanged
+result = 5 > 2
+print(result)
+print(type(result))
+# expected
+# true
+# bool
+print(5 == 2)
+print(5 != health)
+# expected
+# false
+# true
+
+# Doubles and Floats should be able to be compared freely
+print(5.0 == 5)
+# expected : True
+
+print(True == False)
+# expected : false
+
+print(first_name == last_name)
+# expected : false
+
+print("a" == "A")
+# expected : false
+# Strings are case sensitive so although both have the letter "A" their both different characters
+
+print("a" > "b")
+# expected : false
+# Python can compare the greater than and less than between letters
+# The comparison is based off of position in the alphabet
+# a is at position 0, b is at position 1, 1 > 0, so therefore, a is not greater than b, false
+
+print(5 > False)
+# Expected : true
+# False and True have numeric values
+# Stated before : False = 0 and True = 1
+
+print(5 > True)
+# Expected: True
+# This gets a little weird because anything greater than 0 evaluates to true
+# Python seems to be resolving this statement from left to right
+# Converting the True into an integer to comare to the integer on the left half of the statement
+# True = 1, 5 > 1, therefore True
 
 # Logical Operators
