@@ -29,7 +29,25 @@ first_name = "Alex"
 last_name = "Erdenberger"
 full_name = last_name + " " + first_name
 print(full_name)
-#expected Alex Erdenberger   
+#expected Erdenberger Alex   
 
 
 #Assignment Operators
+
+health = 50
+health += 20
+# exactly the same as: health = health + 20
+health -= 50
+# exactly the same as: health = health - 50
+# assignment operators can be combined with any of the arithmatic operators
+
+name = "Alex"
+name += " Erdenberger"
+print(name)
+
+# subtracting strings doesn't really makes sense
+# not a lot of the other arithmatic operators works with strings
+
+# Conditional Operators
+
+# Logical Operators
