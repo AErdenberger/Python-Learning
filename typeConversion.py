@@ -26,3 +26,18 @@ print(bool(player_name))
 #True
 #True
 #True
+
+#When converting to an integer SOME things are allowed, others aren't
+#print(int("fdsadfasdf"))
+#expected error
+print(int("56"))
+#expected 56
+print(int(0.5))
+#expected 0
+#Python just 'chops off' the decimal
+print(int(False))
+print(int(True))
+#expected
+#0
+#1
+#the reverse of converting 0 and 1 into booleans
