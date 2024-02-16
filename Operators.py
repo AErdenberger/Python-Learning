@@ -15,10 +15,21 @@ print(xPos % 2)
 print(xPos // 2)
 # % will return the remainder
 # // will discard the remainder
+print(xPos ** 2)
+# ** is an exponent
+print(xPos)
 
 #expected
 #1
 #2
+#25
+#5
+
+first_name = "Alex"
+last_name = "Erdenberger"
+full_name = last_name + " " + first_name
+print(full_name)
+#expected Alex Erdenberger   
 
 
 #Assignment Operators
