@@ -97,3 +97,22 @@ print(5 > True)
 # True = 1, 5 > 1, therefore True
 
 # Logical Operators
+# not and or
+# not - reverses a boolean value
+# or - either side needs to be true for a true statement
+# and - both sides need to be true for a true statement
+
+is_game_over = False
+is_game_over = not is_game_over
+print(is_game_over)
+# Expected : True (not False -> True)
+health = 0
+lives = 0
+print(health <= 0 and lives <= 0)
+# Expected : True
+# health = 0, 0 <= 0, True. lives = 0, 0 <= 0, True. True and True. True
+lives = 1
+print(health <= 0 and lives <= 0)
+# Expected : False
+print(health <= 0 or lives <= 0)
+# Expected : True
