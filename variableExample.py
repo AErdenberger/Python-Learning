@@ -36,3 +36,19 @@ print(player_name)
 player_name = 'Mammoth'
 print(player_name)
 #expected Nimish
+
+print(type(is_game_over))
+print(type(num_lives))
+print(type(percent_health))
+print(type(player_name))
+
+#expected:
+#boolean
+#integer
+#float
+#String
+
+#Types are dynamic in Python
+num_lives = "5"
+print(type(num_lives))
+#expected String
