@@ -15,10 +15,15 @@ print(is_game_over)
 #true
 #false
 
-num_lives = 5
+num_lives = 5 #integer
 print(num_lives)
-percent_health = 0.5
+percent_health = 0.5 #float
 print(percent_health)
 
 #5
 #0.5
+
+player_name = "Nimish"
+print(player_name)
+player_name = "Mammoth"
+print(player_name)  
