@@ -41,3 +41,14 @@ print(int(True))
 #0
 #1
 #the reverse of converting 0 and 1 into booleans
+
+#floats work similarly with restrictions to integers
+print(float("1"))
+print(float(0.5))
+print(float(False))
+print(float(True))
+#expected
+#1.0
+#0.5
+#0.0
+#1.0
